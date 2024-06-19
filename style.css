@@ -61,15 +61,6 @@ a:hover {
   animation: fadeIn 2s;
 }
 
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
 h1 {
   color: #000080;
 }
@@ -110,7 +101,7 @@ footer {
   background-color: #f0f0f0; 
   text-align: center;
   clear: both; 
-  position: absolute; 
+  position: fixed; 
   bottom: 0; 
   width: 100%; 
 }
